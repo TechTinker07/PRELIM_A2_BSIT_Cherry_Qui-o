@@ -1,0 +1,10 @@
+﻿@model PRELIM_A2_BSIT_Cherry_Quiño.Models.Books
+
+<h2>Book Details</h2>
+
+<p><strong>Title:</strong> @Model.Title</p>
+<p><strong>Author:</strong> @Model.Author</p>
+<p><strong>Last Returned:</strong> @Model.DateLastReturned?.ToShortDateString()</p>
+<p><strong>Is Available:</strong> @(Model.IsAvailable ? "Yes" : "No")</p>
+
+<p><a href="/Library">Back to Library</a></p>

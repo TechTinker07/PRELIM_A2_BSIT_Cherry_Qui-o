@@ -1,0 +1,11 @@
+﻿@model PRELIM_A2_BSIT_Cherry_Quiño.Models.Books
+
+<h2>Add New Book</h2>
+
+<form asp-action="CreateBook" method="post">
+    <p>Title: <input asp-for="Title" /></p>
+    <p>Is Available: <input asp-for="IsAvailable" type="checkbox" /></p>
+    <button type="submit">Save</button>
+</form>
+
+<p><a href="/Library">Back to Library</a></p>

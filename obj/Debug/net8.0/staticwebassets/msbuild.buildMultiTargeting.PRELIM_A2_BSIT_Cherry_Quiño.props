@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PRELIM_A2_BSIT_Cherry_Quiño.props" />
+</Project>
